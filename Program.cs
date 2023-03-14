@@ -4,15 +4,16 @@ namespace Carre
 {
     class Program
     {
-	static int CalculeCarre(int val)
+	int CalculeCarre(int val)
 	{
 	    return val * val;
 	}
 
         static void Main(string[] args)
         {
-	    val test=4;
-	    Console.WriteLine($"ca marche ou pas {CalculeCarre(test)}");
+	    int i;
+
+	    Console.WriteLine($"saisir entier");
         }
 
     }
