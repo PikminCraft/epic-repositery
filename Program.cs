@@ -20,7 +20,7 @@ namespace Carre
 	    int i;
 
 	    Console.WriteLine($"saisir un entier");
-	    i = Convert.ToInt32(Console.ReadLine())
+	    i = Convert.ToInt32(Console.ReadLine());
 
 	    Console.WriteLine(CalculeCarre(i));
         }
